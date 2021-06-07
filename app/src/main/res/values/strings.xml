@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MinhasPropostas</string>
+
+    <!--Tela de Login -->
+    <string name="txtTitulo">Minhas Propostas</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtSenha">Senha</string>
+    <string name="txtBtnLogar">Logar</string>
+
+
+</resources>
