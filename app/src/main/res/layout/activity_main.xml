@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login"
+    android:background="@color/verde"
     tools:context=".view.MainActivity">
 
     <TextView android:id="@+id/txtTitle"
@@ -13,6 +13,7 @@
         android:layout_marginTop="116dp"
         android:textSize="32sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:text="@string/txtTitulo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -27,6 +28,8 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:hint="@string/txtLogin"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -40,9 +43,12 @@
         android:layout_marginTop="84dp"
         android:ems="10"
         android:hint="@string/txtSenha"
-        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="@+id/editLogin"
         app:layout_constraintTop_toBottomOf="@+id/editLogin" />
+
 
     <Button android:id="@+id/btnLogar"
         android:layout_width="wrap_content"
@@ -50,7 +56,9 @@
         android:layout_marginTop="92dp"
         android:text="@string/txtBtnLogar"
         app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/purple_500"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editSenha" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
